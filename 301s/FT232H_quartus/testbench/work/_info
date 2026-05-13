@@ -1,0 +1,82 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/QuartusProject/testFT232H/testbench
+vdetect_uisw
+Z0 !s110 1776407423
+!i10b 1
+!s100 2@=fn4_SzjVGPGiB=a`_Y0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IjK7oPW6^0H::VUgFk^2I<2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/onom/Documents/Quartus/testFT232H/testbench
+Z4 w1776407414
+Z5 8C:/Users/onom/Documents/Quartus/testFT232H/mode_SyncFIFO.v
+Z6 FC:/Users/onom/Documents/Quartus/testFT232H/mode_SyncFIFO.v
+!i122 33
+L0 10 86
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1776407423.000000
+!s107 C:/Users/onom/Documents/Quartus/testFT232H/mode_SyncFIFO.v|
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/onom/Documents/Quartus/testFT232H/mode_SyncFIFO.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vmode_SyncFIFO
+R0
+!i10b 1
+!s100 j]In6c:jfY25J]TWiJZ3d1
+R1
+I1L3LWb5S2_A__e4Ho4nBT3
+R2
+R3
+R4
+R5
+R6
+!i122 33
+L0 99 211
+R7
+r1
+!s85 0
+31
+R8
+Z12 !s107 C:/Users/onom/Documents/Quartus/testFT232H/mode_SyncFIFO.v|
+R9
+!i113 1
+R10
+R11
+nmode_@sync@f@i@f@o
+vtb_testFT232H
+!s110 1776407182
+!i10b 1
+!s100 DT32f<:lZ=^CV9_j7`iz22
+R1
+I2GBdn5>SXBB`Y;BCFhhf00
+R2
+R3
+w1776253825
+8C:/Users/onom/Documents/Quartus/testFT232H/testbench/tb_testFT232H.v
+FC:/Users/onom/Documents/Quartus/testFT232H/testbench/tb_testFT232H.v
+!i122 31
+L0 7 49
+R7
+r1
+!s85 0
+31
+!s108 1776407182.000000
+!s107 C:/Users/onom/Documents/Quartus/testFT232H/testbench/tb_testFT232H.v|
+!s90 -reportprogress|300|-work|work|C:/Users/onom/Documents/Quartus/testFT232H/testbench/tb_testFT232H.v|
+!i113 1
+R10
+R11
+ntb_test@f@t232@h

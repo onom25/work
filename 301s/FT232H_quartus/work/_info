@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/onom/Documents/Quartus/prtdtsend/testbench
+vPRTDTSEND
+Z0 !s110 1756712272
+!i10b 1
+!s100 >61V=DgbGK]N55aU5CQB70
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ikf5;609EHKbnzZD6FdW9`2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/onom/Documents/Quartus/prtdtsend
+w1756192822
+8C:/Users/onom/Documents/Quartus/prtdtsend/prtdtsend.v
+FC:/Users/onom/Documents/Quartus/prtdtsend/prtdtsend.v
+!i122 0
+L0 12 176
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1756712272.000000
+!s107 C:/Users/onom/Documents/Quartus/prtdtsend/prtdtsend.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/onom/Documents/Quartus/prtdtsend/prtdtsend.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@p@r@t@d@t@s@e@n@d
+vPRTDTSEND_test
+R0
+!i10b 1
+!s100 DQz3Z1DGjMdBB@::bzIDC1
+R1
+IM>Xlh[]9`k[_l=njSoHhm3
+R2
+R3
+w1756711844
+8C:/Users/onom/Documents/Quartus/prtdtsend/prtdtsend_tb.v
+FC:/Users/onom/Documents/Quartus/prtdtsend/prtdtsend_tb.v
+!i122 1
+L0 5 35
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/onom/Documents/Quartus/prtdtsend/prtdtsend_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/onom/Documents/Quartus/prtdtsend/prtdtsend_tb.v|
+!i113 1
+R6
+R7
+n@p@r@t@d@t@s@e@n@d_test

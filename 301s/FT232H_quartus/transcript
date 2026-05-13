@@ -1,0 +1,13 @@
+# Compile of prtdtsend.v was successful.
+# Compile of prtdtsend_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.PRTDTSEND_test
+# vsim work.PRTDTSEND_test 
+# Start time: 16:34:52 on Sep 01,2025
+# Loading work.PRTDTSEND_test
+# Loading C:/Users/onom/Documents/Quartus/prtdtsend/testbench/rtl_work.PRTDTSEND
+run -all
+# ** Note: $finish    : C:/Users/onom/Documents/Quartus/prtdtsend/prtdtsend_tb.v(36)
+#    Time: 7 ns  Iteration: 0  Instance: /PRTDTSEND_test
+# End time: 16:38:51 on Sep 01,2025, Elapsed time: 0:03:59
+# Errors: 2, Warnings: 0

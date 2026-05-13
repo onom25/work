@@ -1,0 +1,85 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "nRD",
+					"strict" : false
+				},
+				{
+					"name" : "nWR",
+					"strict" : false
+				},
+				{
+					"name" : "nOE",
+					"strict" : false
+				},
+				{
+					"name" : "TP1",
+					"strict" : false
+				},
+				{
+					"name" : "TP2",
+					"strict" : false
+				},
+				{
+					"name" : "D[7]",
+					"strict" : false
+				},
+				{
+					"name" : "D[6]",
+					"strict" : false
+				},
+				{
+					"name" : "D[5]",
+					"strict" : false
+				},
+				{
+					"name" : "D[4]",
+					"strict" : false
+				},
+				{
+					"name" : "D[3]",
+					"strict" : false
+				},
+				{
+					"name" : "D[2]",
+					"strict" : false
+				},
+				{
+					"name" : "D[1]",
+					"strict" : false
+				},
+				{
+					"name" : "D[0]",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "NRES",
+					"strict" : false
+				},
+				{
+					"name" : "nRXF",
+					"strict" : false
+				},
+				{
+					"name" : "nTXE",
+					"strict" : false
+				},
+				{
+					"name" : "UISW1",
+					"strict" : false
+				},
+				{
+					"name" : "UISW2",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
