@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "mmp301s-p0")(type "KiCad")(uri "${KIPRJMOD}/mmp301s-p0.kicad_sym")(options "")(descr ""))
+  (lib (name "DMX-100_Library")(type "KiCad")(uri "${KIPRJMOD}/DMX-100_Library.kicad_sym")(options "")(descr ""))
+)
