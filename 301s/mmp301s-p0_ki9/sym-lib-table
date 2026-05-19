@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "mmp301s-p0")(type "KiCad")(uri "${KIPRJMOD}/mmp301s-p0.kicad_sym")(options "")(descr ""))
   (lib (name "DMX-100_Library")(type "KiCad")(uri "${KIPRJMOD}/DMX-100_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "mmc-b113-cache")(type "KiCad")(uri "${KIPRJMOD}/mmc-b113-cache.kicad_sym")(options "")(descr ""))
+  (lib (name "mmc-b112_Library")(type "KiCad")(uri "${KIPRJMOD}/mmc-b112_Library.kicad_sym")(options "")(descr ""))
 )
