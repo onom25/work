@@ -1,0 +1,11 @@
+(module mmc-b110:Hole_3.5mm (layer F.Cu) (tedit 59F72499)
+  (descr "Mounting Hole 3.5mm, no annular")
+  (tags "mounting hole 3.5mm no annular")
+  (fp_text reference HOL2 (at 0 -4.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value MountingHole_3.5mm (at -1.893 -6.286) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.5) (layers *.Cu *.Mask))
+)

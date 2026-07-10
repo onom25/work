@@ -1,0 +1,117 @@
+(footprint "CP_Radial_D12.6mm_P5.0mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=5mm, Electrolytic Capacitor")
+	(tags "CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor")
+	(property "Reference" "C24"
+		(at -1.651 2.794 0)
+		(layer "F.SilkS")
+		(uuid "74c5d83a-2acb-4c91-9eba-ee6598ccc29e")
+		(effects
+			(font
+				(size 1.2 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "680uF/50V"
+		(at 1.016 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a61c20f5-2b4e-455a-80f4-b3da845f7be3")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.01)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "890f8581-ed4e-4e36-ae8d-da670326b59f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b7c53eb-bc1d-4f34-98b8-00f955ae57cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 2.5 0)
+		(end -4 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "802cc419-c95f-437f-a769-e569fd2b6c8e")
+	)
+	(fp_circle
+		(center 9 0)
+		(end 9.25 0)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4cc7d9cf-9cd4-453b-955b-159ad8828b9d")
+	)
+	(fp_circle
+		(center 9 0)
+		(end 9.5 0)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f2cd90db-e858-46bc-9538-f2117b290260")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e6482c8f-4ba2-4752-b0b6-89f39949edf7")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8386c347-40c9-43e2-9c56-e626eaf308e4")
+	)
+	(embedded_fonts no)
+	(model "C:/Program Files/KiCad5.1/share/kicad/modules/packages3d/Capacitor_THT.3dshapes/C_Radial_D12.5mm_H25.0mm_P5.00mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

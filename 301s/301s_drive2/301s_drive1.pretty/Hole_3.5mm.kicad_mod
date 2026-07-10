@@ -1,0 +1,16 @@
+(footprint "Hole_3.5mm" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 62B1257C)
+  (descr "Mounting Hole 3.5mm, no annular")
+  (tags "mounting hole 3.5mm no annular")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 -4.5) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 6267cf9e-2bb7-41cf-b797-a3723b70bd4e)
+  )
+  (fp_text value "MountingHole_3.5mm" (at 0 0.3) (layer "F.Fab") hide
+    (effects (font (size 0.5 0.5) (thickness 0.05)))
+    (tstamp 16ea58e6-9828-4c93-b5c9-7fd50a8b4c8b)
+  )
+  (pad "" np_thru_hole circle (at 0 0 180) (size 3.5 3.5) (drill 3.5) (layers *.Cu *.Mask) (tstamp 5b870291-967e-4c9e-8b0f-1f856af9254b))
+)

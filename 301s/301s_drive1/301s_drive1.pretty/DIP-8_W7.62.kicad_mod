@@ -1,0 +1,203 @@
+(footprint "DIP-8_W7.62"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "8-lead through-hole mounted CERDIP, JEDEC MS-015-AA package, row spacing 7.62mm (300 mils), SideBrazed, https://www.jedec.org/system/files/docs/Ms-015a.pdf")
+	(tags "THT DIP DIL CERDIP ceramic 2.54mm 7.62mm 300mil SideBrazed")
+	(property "Reference" "REF**"
+		(at 3.81 -3.855 0)
+		(layer "F.SilkS")
+		(uuid "18973fb0-7519-402a-a21c-7a57cdf8dae8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DIP-8_W7.62"
+		(at 3.81 11.475 0)
+		(layer "F.Fab")
+		(uuid "55bfe1c5-b94a-459f-aa28-2681a9281dd0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b7afa06d-fcea-4f3b-a4e6-d66384a67a31")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8eb928f3-b4db-4859-acfa-e0d85d72f1e0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1.16 -2.855)
+		(end 1.16 10.475)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5f883dcd-da32-4494-bb46-62772ff166a8")
+	)
+	(fp_line
+		(start 1.16 10.475)
+		(end 6.46 10.475)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4732095f-8c95-447d-a89b-27f356d44593")
+	)
+	(fp_line
+		(start 2.81 -2.855)
+		(end 1.16 -2.855)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8ccec102-a934-48bc-84ca-16068b5fccef")
+	)
+	(fp_line
+		(start 6.46 -2.855)
+		(end 4.81 -2.855)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f2c48806-04ea-4158-a76a-d0a52ba0c8fe")
+	)
+	(fp_line
+		(start 6.46 10.475)
+		(end 6.46 -2.855)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "800f0935-f237-4eac-805a-6a3d3c967d68")
+	)
+	(fp_arc
+		(start 4.81 -2.855)
+		(mid 3.81 -1.855)
+		(end 2.81 -2.855)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0632d502-2ae0-443d-acd8-f029c5cdad98")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.81 3.81 90)
+		(layer "F.Fab")
+		(uuid "23d75635-f560-4093-bcb7-a10f0187fecd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a8047873-9bf6-41f7-9868-a84730b91941")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.54)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "10622fc9-6813-4e1f-91d5-5de613b19795")
+	)
+	(pad "3" thru_hole circle
+		(at 0 5.08)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "89223efd-fe85-4ebb-8f81-9e081e613429")
+	)
+	(pad "4" thru_hole circle
+		(at 0 7.62)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b5df04bd-1f4d-417e-82c5-13d0bfffe8ef")
+	)
+	(pad "5" thru_hole circle
+		(at 7.62 7.62)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c78e472a-c30f-4d9c-8859-e6f55194b008")
+	)
+	(pad "6" thru_hole circle
+		(at 7.62 5.08)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0793284a-0830-48f0-98e9-335d03878764")
+	)
+	(pad "7" thru_hole circle
+		(at 7.62 2.54)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4afef4e9-03bb-4981-bda2-6d9ec7278eef")
+	)
+	(pad "8" thru_hole circle
+		(at 7.62 0)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "894ae754-1a0a-4202-8e96-bd9596db5bf9")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/CERDIP-8_W7.62mm_SideBrazed.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

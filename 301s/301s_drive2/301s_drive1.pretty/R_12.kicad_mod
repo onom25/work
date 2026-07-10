@@ -1,0 +1,104 @@
+(footprint "R_12"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Resistor througe hole P=7.62")
+	(tags "resistor p=7.62")
+	(property "Reference" "R13"
+		(at 3.81 -0.889 0)
+		(layer "F.SilkS")
+		(uuid "7c37ab81-7444-4d8d-b942-efec218f51f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "0.01 Ohm"
+		(at 5.08 1.55 0)
+		(layer "F.Fab")
+		(uuid "6061a4de-1320-4159-a317-117150a9eee5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0aa8b00-bfe6-4e8b-9930-35dfc2badcde")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80b05151-eba4-460d-9926-8a900676a8a1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 1.27 0)
+		(end 10.5 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ef2250ad-4ab7-40b6-a20a-cd4fa6fec430")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "5264cdef-522f-4bc5-b71f-90d12a422bea")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "862028f9-5333-47a2-b4a5-d8a308566356")
+	)
+	(pad "2" thru_hole circle
+		(at 12 0)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b41464ea-9205-468c-9a9a-3538e0e6ec34")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/mmc-b112.pretty/BPR58.wrl"
+		(offset
+			(xyz 4.5 0 0)
+		)
+		(scale
+			(xyz 0.39 0.39 0.39)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)

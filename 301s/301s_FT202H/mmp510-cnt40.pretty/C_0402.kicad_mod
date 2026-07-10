@@ -1,0 +1,180 @@
+(footprint "C_0402"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
+	(tags "capacitor 0402")
+	(property "Reference" "CX6"
+		(at -0.127 -1.397 0)
+		(layer "F.SilkS")
+		(uuid "8f431c7d-5c35-486a-bb64-1075a2160931")
+		(effects
+			(font
+				(size 1.2 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "104"
+		(at 0.079 0.116 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a559c42f-0e5e-499e-926b-a1cfc9d004a8")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.01)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3dcf8c3d-29b1-4426-b585-a8c9054c036d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af3410f0-d637-4178-9862-5b16c1b1a49a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.25 0.47)
+		(end 0.25 0.47)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "feb5ce8f-37c1-48a9-bee0-b0c1fa0528fc")
+	)
+	(fp_line
+		(start 0.25 -0.47)
+		(end -0.25 -0.47)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "84a1e6c7-d9d8-460b-aa17-7225ca0fe654")
+	)
+	(fp_line
+		(start -1 -0.4)
+		(end -1 0.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "96c6325a-d6f8-4d58-bf2c-50ca7f773e9f")
+	)
+	(fp_line
+		(start -1 -0.4)
+		(end 1 -0.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4b793680-23d8-4e02-ae56-d3811964d769")
+	)
+	(fp_line
+		(start 1 0.4)
+		(end -1 0.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c20b1b11-f662-4035-bfbf-a9de66b3e7f6")
+	)
+	(fp_line
+		(start 1 0.4)
+		(end 1 -0.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bbccb173-d179-46a4-bb4c-dac6c172a739")
+	)
+	(fp_line
+		(start -0.5 -0.25)
+		(end 0.5 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b3ae4c7e-564e-48a4-b5dd-a31b01f24959")
+	)
+	(fp_line
+		(start -0.5 0.25)
+		(end -0.5 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bb2f7ff1-95c8-43e3-8f1d-4694bda72f11")
+	)
+	(fp_line
+		(start 0.5 -0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e6dcd152-7cb7-4590-9ad5-e52a2e81d523")
+	)
+	(fp_line
+		(start 0.5 0.25)
+		(end -0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "719ba625-ff1b-446d-b970-82be39df4c3f")
+	)
+	(pad "1" smd rect
+		(at -0.55 0)
+		(size 0.6 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3c812b57-261a-4fb5-a931-c8e3d43147de")
+	)
+	(pad "2" smd rect
+		(at 0.55 0)
+		(size 0.6 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "08313472-79bb-41ec-95e2-ca23dd0297f0")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

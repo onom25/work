@@ -1,0 +1,139 @@
+(footprint "TO-220L"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Non Isolated JEDEC TO-220 Package")
+	(tags "Power Integration YN Package")
+	(property "Reference" "Q5"
+		(at -5.25 0.25 0)
+		(layer "F.SilkS")
+		(uuid "5ca85b36-399d-4646-854a-7607b976ac87")
+		(effects
+			(font
+				(size 1.2 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "NMOS FKI06051"
+		(at -0.145 -17.907 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92891cc8-fad1-42b7-a118-969cf65896e2")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.01)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b4d529a-20c8-40a0-a5f9-6879891cab29")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d556d2f5-ab11-4a1f-9a74-f46b4811c64b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.08 -21.59)
+		(end 5.08 -21.59)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c26f715e-f82d-43a0-b462-c05df6d0b2bc")
+	)
+	(fp_line
+		(start -5.08 -5.08)
+		(end -5.08 -21.59)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "78e18d28-3dd9-43d0-a043-625456c94ae7")
+	)
+	(fp_line
+		(start 5.08 -21.59)
+		(end 5.08 -5.08)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fc287207-e0ff-4bce-98af-afb0986aa385")
+	)
+	(fp_line
+		(start 5.08 -5.08)
+		(end -5.08 -5.08)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e70793e3-4661-49d1-bc08-998d2f5dbe7d")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 -17.78)
+		(size 3.8 3.8)
+		(drill 3.8)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "22c07be9-eb4b-44aa-85d5-e034c8535b00")
+	)
+	(pad "B" thru_hole circle
+		(at -2.54 0)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c62fbfb3-a4ca-46de-b211-39b59cf76710")
+	)
+	(pad "C" thru_hole circle
+		(at 0 0)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "67973c64-6539-4f00-b279-3c3bb332960e")
+	)
+	(pad "E" thru_hole circle
+		(at 2.54 0)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d7e4e48f-b4fd-4ee4-ab5c-5a1cf6c39b67")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-3_Horizontal_TabDown.wrl"
+		(offset
+			(xyz -2.54 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

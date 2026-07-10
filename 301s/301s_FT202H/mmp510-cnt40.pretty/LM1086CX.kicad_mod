@@ -1,0 +1,130 @@
+(footprint "LM1086CX"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "IC5"
+		(at -6.2 4 90)
+		(layer "F.SilkS")
+		(uuid "8ee18454-efaf-406d-a32d-53e0b071cdc0")
+		(effects
+			(font
+				(size 1.2 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LM1086CSX-3.3"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be17f6a7-9d0d-4f03-b620-49efbacfe32f")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.01)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2c0ca20-3a07-476a-b897-bdc72d14ebb1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3672d6bb-2e58-4536-8668-02f8969d9c40")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.25 0)
+		(end -5.25 5.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3c78f325-d31b-4494-82ab-f7655c6bfd01")
+	)
+	(fp_line
+		(start -5.25 5.5)
+		(end -3.5 5.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fec36889-0034-47b4-814d-98148d281589")
+	)
+	(fp_line
+		(start 3.5 5.5)
+		(end 5.25 5.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9b7e6526-3dd3-495c-87da-4d143bb77200")
+	)
+	(fp_line
+		(start 5.25 5.5)
+		(end 5.25 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d3156abc-2a4c-484f-b208-da95a4ce90f9")
+	)
+	(pad "GND" smd rect
+		(at -2.54 6.55)
+		(size 1.05 4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cda401e1-a60f-48ec-9765-df3103e9d2a9")
+	)
+	(pad "VI" smd rect
+		(at 2.54 6.55)
+		(size 1.05 4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8af5c7e8-afcd-48be-8f42-27b6970f68b5")
+	)
+	(pad "VO" smd rect
+		(at 0 -4.1)
+		(size 10.5 6.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3e741943-9939-4ca0-b4da-06f77c124aa7")
+	)
+	(pad "VO" smd rect
+		(at 0 6.55)
+		(size 1.05 4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a5218f53-e06c-4f15-9f28-c3a8fc5c0191")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TO-263-3_TabPin2.step"
+		(offset
+			(xyz 0 1.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)

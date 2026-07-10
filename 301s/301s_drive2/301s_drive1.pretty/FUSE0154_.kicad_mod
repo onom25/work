@@ -1,0 +1,118 @@
+(footprint "FUSE0154_"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "F1"
+		(at -2.973 -3.606 0)
+		(layer "F.SilkS")
+		(uuid "aeaa9c17-4dd3-45ee-b1bb-d36283c5cdb6")
+		(effects
+			(font
+				(size 1.2 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "0154002."
+		(at -0.052 0.077 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c43278f-e1a1-41a9-be52-69e836c3123b")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.01)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81f70c8e-0d65-442e-a2c1-bbf6f08daedf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f3d0ff0b-3874-4607-b1e6-634f4d0ffed2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.8 -2.2)
+		(end 5.8 -2.2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ec903fa6-6edc-414b-bb6c-0b7df6f7d775")
+	)
+	(fp_line
+		(start -5.8 2.2)
+		(end -5.8 -2.2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "12c6b8a7-fb54-441b-b9e8-f847a90d07d4")
+	)
+	(fp_line
+		(start 5.8 -2.2)
+		(end 5.8 2.2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4f99a171-636f-4a80-b5ab-4413f55ba7cf")
+	)
+	(fp_line
+		(start 5.8 2.2)
+		(end -5.8 2.2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9d63cd7e-d0e3-4588-9dae-fafa23118125")
+	)
+	(pad "1" smd rect
+		(at -3.205 0)
+		(size 4.24 3.81)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5984a483-7406-4bc4-947d-4ded890df73d")
+	)
+	(pad "2" smd rect
+		(at 3.205 0)
+		(size 4.24 3.81)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cbc4ffd9-879c-4ace-a04a-b3865968c4df")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/onom/Documents/KiProjects/3dshape_fuse0154.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.394 0.394 0.394)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

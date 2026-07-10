@@ -1,0 +1,167 @@
+(footprint "CP_Radial_D5.0mm_P2.00mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=5mm, Electrolytic Capacitor")
+	(tags "CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor")
+	(property "Reference" "C20"
+		(at -2.286 1.905 0)
+		(layer "F.SilkS")
+		(uuid "414aa161-7dd2-4887-ad08-d0c48b8372ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "106"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "4fa3cd36-489a-402a-8765-20c581afc8fb")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8c7396d2-d35d-43d8-91a8-6e99695db707")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e327c76-313c-46c4-bc5a-5d4e01884473")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 1 0)
+		(end 3.6 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7a416a72-97d4-44a4-a246-d79e78cfaae5")
+	)
+	(fp_circle
+		(center 3.61 0)
+		(end 3.77 -0.01)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0aab2db2-cec7-4491-b629-52081fb91e9e")
+	)
+	(fp_circle
+		(center 3.61 0)
+		(end 3.88 -0.02)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e761eeaf-7007-4e25-95be-9d057eeec558")
+	)
+	(fp_circle
+		(center 3.61 0)
+		(end 4.07 -0.01)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9c2b6f88-632f-43d9-b2b2-9ea7cba093d4")
+	)
+	(fp_line
+		(start -1.7 -2.7)
+		(end -1.7 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d6b68179-3ff9-4deb-b2e0-30c9d73b0c38")
+	)
+	(fp_line
+		(start -1.7 2.7)
+		(end 3.7 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "92fc69ee-c957-476f-aab1-9c45d2f4100a")
+	)
+	(fp_line
+		(start 3.7 -2.7)
+		(end -1.7 -2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "48f92a98-6d92-434f-909e-527d5bd78eae")
+	)
+	(fp_line
+		(start 3.7 2.7)
+		(end 3.7 -2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6d767104-ec27-4c04-8d09-d635ca88d116")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d34de8f6-f745-4799-a262-b77992cc0fda")
+	)
+	(pad "2" thru_hole circle
+		(at 2 0)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "494f5942-1bbd-4684-a440-e9ad7987fb40")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Radial_D5.0mm_H11.0mm_P2.00mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

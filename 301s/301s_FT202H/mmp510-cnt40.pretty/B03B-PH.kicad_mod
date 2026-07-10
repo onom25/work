@@ -1,0 +1,230 @@
+(footprint "B03B-PH"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "CN6"
+		(at -2.373 -4.057 0)
+		(layer "F.SilkS")
+		(uuid "151b4ed6-ced9-4187-b678-fb702a9913e0")
+		(effects
+			(font
+				(size 2 1.5)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Value" "B03B-PH"
+		(at -1.992 0.007 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7ce7c77-1283-48f6-ac61-e2967162beb4")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.01)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d286972-9a8b-4860-acd4-2f289f99d16e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8ca65b92-3eb3-40f1-a4da-4b768d00e1b7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6 -2.8)
+		(end -6 1.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b6da48fe-9dd8-4b3c-bb1c-71637ce11f55")
+	)
+	(fp_line
+		(start -6 -2.8)
+		(end 2 -2.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8b3b2580-0a15-48a0-a294-fa9cb4fc4b03")
+	)
+	(fp_line
+		(start -5.4 -2.2)
+		(end 1.4 -2.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "331e6dfb-4638-4556-81f4-627124378c2f")
+	)
+	(fp_line
+		(start -5.4 1.1)
+		(end -5.4 -2.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9c87806e-23b8-4d85-842c-ae7c442fe47e")
+	)
+	(fp_line
+		(start -4 1.1)
+		(end -5.4 1.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7bf3cf28-9f44-4362-a3a0-37affedc6484")
+	)
+	(fp_line
+		(start -4 1.7)
+		(end -4 1.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ac6b4d77-cbe0-4cad-8b4b-7c7b005196e7")
+	)
+	(fp_line
+		(start -0.5 2.2)
+		(end 0.5 2.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fd83d3af-9a3a-4e8e-ac3d-f9fa0a8b2b3f")
+	)
+	(fp_line
+		(start 0 1.1)
+		(end 0 1.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7681a2fb-5d7b-426d-aae7-f46679c44bff")
+	)
+	(fp_line
+		(start 0 1.7)
+		(end -0.5 2.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "100df82d-521a-413a-88b4-971c8fc00371")
+	)
+	(fp_line
+		(start 0.5 2.2)
+		(end 0 1.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8c12b2d5-00a9-4f3b-93bf-20e53e48d198")
+	)
+	(fp_line
+		(start 1.4 -2.2)
+		(end 1.4 1.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d2231f35-9698-438a-b5fd-21b74dad694c")
+	)
+	(fp_line
+		(start 1.4 1.1)
+		(end 0 1.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dd6a690e-9dd9-4797-b013-fdde00191a31")
+	)
+	(fp_line
+		(start 2 -2.8)
+		(end 2 1.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "275ab1b0-5ee0-4c45-beed-434f3d2892ec")
+	)
+	(fp_line
+		(start 2 1.7)
+		(end -6 1.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3da51a1c-30ec-4763-bb1a-d6657c636347")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.4 1.4)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "20e2036b-0aa1-4090-afbb-4826b1235d7d")
+	)
+	(pad "2" thru_hole circle
+		(at -2 0)
+		(size 1.4 1.4)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c3d9e859-dc9c-494b-92be-2bb573c6daa9")
+	)
+	(pad "3" thru_hole circle
+		(at -4 0)
+		(size 1.4 1.4)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c25f53f2-b949-4928-8f13-10cae6d5b498")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)

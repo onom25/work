@@ -9575,8 +9575,8 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 356.87 77.3998 0)
+		(property "Value" "LM1010"
+			(at 327.66 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10057,15 +10057,15 @@
 		(dnp no)
 		(uuid "4ca13fed-2742-436b-813d-f0178d4b86aa")
 		(property "Reference" "U7"
-			(at 323.85 74.8598 0)
+			(at 314.96 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 323.85 77.3998 0)
+		(property "Value" "OPA454"
+			(at 307.34 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10978,18 +10978,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7e267a3e-6ac0-4244-9afa-84ff7ce2f5db")
 		(property "Reference" "U3"
-			(at 284.48 77.3998 0)
+			(at 275.59 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 284.48 79.9398 0)
+		(property "Value" "OPA454"
+			(at 267.97 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11347,7 +11346,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "OPA454"
 			(at 217.17 77.3998 0)
 			(effects
 				(font
