@@ -5,7 +5,7 @@
 	(uuid "95bc4046-960c-493c-abbb-32b0ac8d3199")
 	(paper "A4")
 	(title_block
-		(date "2026-07-13")
+		(date "2026-08-05")
 		(comment 1 "S301-100-0")
 		(comment 2 "DRIVE1")
 		(comment 3 "S301")
@@ -4724,6 +4724,17 @@
 		)
 		(uuid "0e484acb-c793-4d2e-bd79-3f9c6bdd46c1")
 	)
+	(text "2028/08/05\nU2を反転増幅で基本動作できた。U2を非反転3.33倍増幅回路にしないと\nDAC出力のデジタルデータを反転しなければならないので、非反転増幅回路を追加確認する。"
+		(exclude_from_sim no)
+		(at 215.9 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "1d11da4e-d930-42f2-87b4-2b803e6e0f25")
+	)
 	(text "Step1　出力段評価\n	5Pコネクタ 1,2-42V 3-Sig 4,5-GND\n	TP1に104プルダウン"
 		(exclude_from_sim no)
 		(at 215.265 104.775 0)
@@ -4745,9 +4756,9 @@
 		)
 		(uuid "aef33871-315c-4e74-a6bf-c66e341a3a5c")
 	)
-	(text "19.5V"
+	(text "19.0V"
 		(exclude_from_sim no)
-		(at 130.81 82.55 0)
+		(at 133.35 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4776,7 +4787,7 @@
 		)
 		(uuid "f2cc3360-5ca6-409f-b5aa-8c0898bfecf8")
 	)
-	(text "\nVo=(33.6/10) x Vi\n  =3.33 x Vi\nx3.32\n  min 1.6512V\n  max 38.28V\n  Center 6.688V\n  36.63Vp-p"
+	(text "\nVo=(33.6/10) x Vi\n  =3.33 x Vi\nx3.32\n  min 1.88V\n  max 38.51V\n  36.63Vp-p"
 		(exclude_from_sim no)
 		(at 161.29 85.09 0)
 		(effects
@@ -4868,6 +4879,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a0f286b-30db-4a3c-aaf4-225be714bbc7")
+	)
+	(junction
+		(at 129.54 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a676e87-a562-46ce-bd87-afd889d00fb2")
 	)
 	(junction
 		(at 129.54 147.32)
@@ -5024,6 +5041,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c513238-16c3-47fc-831a-462792feec8f")
+	)
+	(junction
+		(at 97.79 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ce9b687-46a3-4ce4-9b11-4caea67c8fba")
 	)
 	(junction
 		(at 123.19 190.5)
@@ -5224,12 +5247,6 @@
 		(uuid "ca3b5a10-ed4d-4e36-ae66-342d636bc6e2")
 	)
 	(junction
-		(at 119.38 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cc329f83-56be-49df-a36d-02d8a0ce7478")
-	)
-	(junction
 		(at 152.4 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5258,12 +5275,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5df9718-b17e-419c-9d0d-f920e5849870")
-	)
-	(junction
-		(at 97.79 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8556049-5bc1-4c48-bde4-51213e162b34")
 	)
 	(junction
 		(at 80.01 121.92)
@@ -5711,6 +5722,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 80.01) (xy 129.54 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22888639-11ae-45bf-b946-8d67f125088d")
+	)
+	(wire
+		(pts
 			(xy 97.79 57.15) (xy 87.63 57.15)
 		)
 		(stroke
@@ -5758,16 +5779,6 @@
 			(type default)
 		)
 		(uuid "28bc7c8b-9bb8-4af6-884e-53fcf2ffa905")
-	)
-	(wire
-		(pts
-			(xy 127 82.55) (xy 127 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28f8f9b4-e3ec-459c-9530-d3da90d1f632")
 	)
 	(wire
 		(pts
@@ -5991,7 +6002,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 82.55) (xy 127 82.55)
+			(xy 124.46 82.55) (xy 129.54 82.55)
 		)
 		(stroke
 			(width 0)
@@ -6148,6 +6159,16 @@
 			(type default)
 		)
 		(uuid "45da71fd-84cc-4a0c-97fb-55b933818036")
+	)
+	(wire
+		(pts
+			(xy 129.54 74.93) (xy 129.54 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45dc0481-f765-4e47-ab77-313e7da7e92a")
 	)
 	(wire
 		(pts
@@ -6761,7 +6782,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 72.39) (xy 142.24 72.39)
+			(xy 124.46 72.39) (xy 142.24 72.39)
 		)
 		(stroke
 			(width 0)
@@ -7421,7 +7442,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 72.39) (xy 129.54 72.39)
+			(xy 97.79 69.85) (xy 119.38 72.39)
 		)
 		(stroke
 			(width 0)
@@ -7718,26 +7739,6 @@
 			(type default)
 		)
 		(uuid "c9f06f5d-d036-404d-a727-6115ac04d28a")
-	)
-	(wire
-		(pts
-			(xy 97.79 57.15) (xy 119.38 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc93c5db-501e-451b-a10f-16b65e2bc06c")
-	)
-	(wire
-		(pts
-			(xy 119.38 54.61) (xy 119.38 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccd69bcd-43ed-43ee-96c1-810a95c11e67")
 	)
 	(wire
 		(pts
@@ -8218,16 +8219,6 @@
 			(type default)
 		)
 		(uuid "f24fc4be-29db-492e-9f3c-edafa79e9cbf")
-	)
-	(wire
-		(pts
-			(xy 119.38 57.15) (xy 121.92 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5d58561-81e3-4ca3-8734-3ac2be6b5abf")
 	)
 	(wire
 		(pts
@@ -10472,7 +10463,7 @@
 	)
 	(symbol
 		(lib_id "mmp301s-p0:R_Small")
-		(at 132.08 72.39 90)
+		(at 121.92 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10480,7 +10471,7 @@
 		(dnp no)
 		(uuid "4cbdf1cc-f1cf-46c4-8616-691203750c0d")
 		(property "Reference" "R16"
-			(at 130.175 69.215 90)
+			(at 120.015 69.215 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10489,7 +10480,7 @@
 			)
 		)
 		(property "Value" "102"
-			(at 130.175 71.12 90)
+			(at 120.015 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10498,7 +10489,7 @@
 			)
 		)
 		(property "Footprint" "301s_drive1:R_1608"
-			(at 132.08 72.39 0)
+			(at 121.92 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10507,7 +10498,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 72.39 0)
+			(at 121.92 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10516,7 +10507,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 72.39 0)
+			(at 121.92 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11097,7 +11088,7 @@
 	)
 	(symbol
 		(lib_id "mmp301s-p0:R_Small")
-		(at 124.46 57.15 90)
+		(at 129.54 77.47 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11105,7 +11096,7 @@
 		(dnp no)
 		(uuid "59a82ac6-e0dc-4dc9-aae0-3fa38e4523c8")
 		(property "Reference" "R15"
-			(at 122.555 53.975 90)
+			(at 126.365 79.375 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11114,7 +11105,7 @@
 			)
 		)
 		(property "Value" "103"
-			(at 122.555 55.88 90)
+			(at 128.27 79.375 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11123,7 +11114,7 @@
 			)
 		)
 		(property "Footprint" "301s_drive1:R_1608"
-			(at 124.46 57.15 0)
+			(at 129.54 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11132,7 +11123,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 57.15 0)
+			(at 129.54 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11141,7 +11132,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 57.15 0)
+			(at 129.54 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11166,7 +11157,7 @@
 	)
 	(symbol
 		(lib_id "mmp301s-p0:CB")
-		(at 119.38 54.61 0)
+		(at 127 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11174,7 +11165,7 @@
 		(dnp no)
 		(uuid "5b225048-7635-4ba5-9156-a9b8f1194378")
 		(property "Reference" "TP6"
-			(at 118.11 53.34 0)
+			(at 125.73 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11183,7 +11174,7 @@
 			)
 		)
 		(property "Value" "CB"
-			(at 119.38 50.8 0)
+			(at 127 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11192,7 +11183,7 @@
 			)
 		)
 		(property "Footprint" "301s_drive1:VIA1.4_inch"
-			(at 119.38 53.34 0)
+			(at 127 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11201,7 +11192,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 53.34 0)
+			(at 127 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11210,7 +11201,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 54.61 0)
+			(at 127 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
