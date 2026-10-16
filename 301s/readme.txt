@@ -4,3 +4,5 @@
 FT232H_powershell	FT232H高速転送評価ツール
 FT232H_quartus		301s_FT232H用のQuartus
 wave_301s		cygwin 波形情報の読込、書込ツール
+mmp5500_301s		DMX100の専用ファーム server\Elec\mmp301s\prototype\mmp5500_301s で管理する
+
